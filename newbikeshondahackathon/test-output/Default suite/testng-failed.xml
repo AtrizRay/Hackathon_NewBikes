@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="util.Browserfactory"/>
+      <class name="util.Configdataprovider"/>
+      <class name="po.Baseclass"/>
+      <class name="util.WritetoExcel"/>
+      <class name="util.Exceldataprovider"/>
+      <class name="po.Usedcars"/>
+      <class name="po.Upcomingbike"/>
+      <class name="po.LoginPageLocator"/>
+      <class name="util.Highlighter"/>
+      <class name="tc.LoginZigwheels"/>
+      <class name="util.CaptureScreenshot"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="tc.LoginZigwheels">
+        <methods>
+          <include name="browser"/>
+          <include name="navigateback"/>
+          <include name="moveFocusToMainWindow"/>
+          <include name="googlebutton"/>
+          <include name="manufacture"/>
+          <include name="recent"/>
+          <include name="bikes4lakhs"/>
+          <include name="city"/>
+          <include name="mainpage1"/>
+          <include name="verify"/>
+          <include name="data"/>
+          <include name="setup"/>
+          <include name="mainpage"/>
+          <include name="usedcars"/>
+          <include name="loginsearch"/>
+          <include name="bike"/>
+          <include name="emaildata"/>
+          <include name="list"/>
+          <include name="url"/>
+          <include name="chennai"/>
+          <include name="honda"/>
+        </methods>
+      </class> <!-- tc.LoginZigwheels -->
+      <class name="po.Baseclass">
+        <methods>
+          <include name="setupsuite"/>
+        </methods>
+      </class> <!-- po.Baseclass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
